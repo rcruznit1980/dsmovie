@@ -1,0 +1,35 @@
+# data source
+spring.datasource.driverClassName=org.h2.Driver
+#spring.datasource.url=jdbc:h2:mem:credilog;\
+#  Mode=Oracle;\
+#  INIT=CREATE SCHEMA IF NOT EXISTS CREDILOG\\;create schema if not exists DBCRED\\;SET SCHEMA CREDILOG;\
+#  DB_CLOSE_ON_EXIT=FALSE;\
+#  DB_CLOSE_DELAY=-1;\
+  
+spring.datasource.url=jdbc:h2:mem:dsmovie;\
+  Mode=Oracle;\
+  INIT=DB_CLOSE_ON_EXIT=FALSE;\
+  DB_CLOSE_DELAY=-1;\  
+spring.datasource.username=sa
+spring.datasource.password=
+
+
+
+# jpa
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.show-sql=TRUE
+# A linha abaixo é necessária para versões iguais ou superiores do spring boot 2.5.0
+spring.jpa.defer-datasource-initialization=true
+
+# h2
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+spring.h2.console.settings.web-allow-others=true
+
+
+
+
+
+#server.port=8083

@@ -1,0 +1,14 @@
+package br.com.namaste.dsmovie.models;
+
+import lombok.Getter;
+
+@Getter
+
+public class Movie {
+
+	private Long id;
+	private String title;
+	private Double score;
+	private Integer count;
+	private String image;
+}

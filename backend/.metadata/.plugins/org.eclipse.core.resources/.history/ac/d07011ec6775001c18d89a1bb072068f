@@ -1,0 +1,20 @@
+package br.com.namaste.dsmovie.models;
+
+import javax.persistence.Entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity(name = "USER_TB")
+public class User {
+	
+	private Long id;
+	private String email;
+
+}

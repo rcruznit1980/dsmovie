@@ -1,0 +1,8 @@
+package br.com.namaste.dsmovie.models;
+
+public class ScorePk {
+	
+	private Movie movie;
+	private User user;
+
+}

@@ -1,0 +1,17 @@
+package br.com.namaste.dsmovie.models;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class ScorePk {
+	
+	private Movie movie;
+	private User user;
+
+}

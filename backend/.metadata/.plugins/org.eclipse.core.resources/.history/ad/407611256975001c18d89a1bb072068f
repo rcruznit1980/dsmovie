@@ -1,0 +1,9 @@
+package br.com.namaste.dsmovie.models;
+
+public class Score {
+	
+	private ScorePk id = new ScorePk();
+	
+	private Double value;
+
+}
