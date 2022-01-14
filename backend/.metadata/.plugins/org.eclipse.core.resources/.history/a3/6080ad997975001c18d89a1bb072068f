@@ -1,0 +1,25 @@
+package br.com.namaste.dsmovie.services.implementations;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.AutoConfigureOrder;
+import org.springframework.stereotype.Service;
+
+import br.com.namaste.dsmovie.dtos.MovieDTO;
+import br.com.namaste.dsmovie.models.Movie;
+import br.com.namaste.dsmovie.repositories.MovieRepository;
+import br.com.namaste.dsmovie.services.MovieService;
+
+@Service("MovieService")
+public class MovieServiceImpl implements MovieService {
+	
+	@Autowired
+	private MovieRepository movieRepository;
+	
+	@Override
+	public List<MovieDTO> findAll(){
+		List<Movie> movies = movieRepository.findAll();
+		return movies;
+	}
+}

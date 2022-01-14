@@ -1,0 +1,10 @@
+package br.com.namaste.dsmovie.services.implementations;
+
+import org.springframework.stereotype.Service;
+
+import br.com.namaste.dsmovie.services.MovieService;
+
+@Service("MovieService")
+public class MovieServiceImpl implements MovieService {
+
+}

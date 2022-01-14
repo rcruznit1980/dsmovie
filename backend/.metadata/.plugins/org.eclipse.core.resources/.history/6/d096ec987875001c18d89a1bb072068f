@@ -1,0 +1,17 @@
+package br.com.namaste.dsmovie.services.implementations;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import br.com.namaste.dsmovie.dtos.MovieDTO;
+import br.com.namaste.dsmovie.services.MovieService;
+
+@Service("MovieService")
+public class MovieServiceImpl implements MovieService {
+	
+	public List<MovieDTO> findAll(){
+		
+		return null;
+	}
+}
