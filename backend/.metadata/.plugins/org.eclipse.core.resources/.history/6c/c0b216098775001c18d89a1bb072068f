@@ -1,0 +1,10 @@
+package br.com.namaste.dsmovie.services;
+
+import br.com.namaste.dsmovie.dtos.ScoreDTO;
+import br.com.namaste.dsmovie.models.Movie;
+
+public interface ScoreService {
+
+	Movie saveScore(ScoreDTO dto);
+
+}

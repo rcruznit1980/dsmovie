@@ -1,0 +1,9 @@
+package br.com.namaste.dsmovie.services;
+
+import br.com.namaste.dsmovie.dtos.ScoreDTO;
+
+public interface ScoreService {
+
+	void saveScore(ScoreDTO dto);
+
+}

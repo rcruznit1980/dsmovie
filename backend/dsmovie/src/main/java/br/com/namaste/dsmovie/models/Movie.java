@@ -1,10 +1,14 @@
 package br.com.namaste.dsmovie.models;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -35,4 +39,7 @@ public class Movie {
 	
 	@Column(name = "IMAGE")
 	private String image;
+	
+	@OneToMany(mappedBy = "id.movie")
+	private Set<Score> scores = new HashSet<>();
 }

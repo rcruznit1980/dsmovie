@@ -1,0 +1,13 @@
+package br.com.namaste.dsmovie.services;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+
+import br.com.namaste.dsmovie.dtos.MovieDTO;
+import br.com.namaste.dsmovie.dtos.ScoreDTO;
+
+public interface ScoreService {
+
+	void saveScore(ScoreDTO dto);
+
+}
