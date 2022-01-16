@@ -936,3 +936,39 @@ org.eclipse.jface.text.BadPartitioningException
 	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
 	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-16 17:17:16.666
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-16 17:27:25.928
+!MESSAGE Invalid preference category path: org.eclipse.wst.ws.internal.ui.preferences.name (bundle: org.jboss.tools.ws.jaxws.ui, page: org.jboss.tools.ws.jaxws.ui.preferences.JBossWSRuntimePreferencePage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-16 17:29:57.646
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-16 17:29:57.649
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-16 17:29:57.651
+!MESSAGE buffering callback sts4.classpath.eXrNiUuK dsmovie false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-16 17:29:57.652
+!MESSAGE executing callback sts4.classpath.eXrNiUuK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-16 17:29:57.814
+!MESSAGE executing callback sts4.classpath.eXrNiUuK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-16 17:30:10.198
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-16 17:30:10.201
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-16 17:30:10.203
+!MESSAGE buffering callback sts4.classpath.eXrNiUuK dsmovie false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-16 17:30:10.204
+!MESSAGE executing callback sts4.classpath.eXrNiUuK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-16 17:30:10.223
+!MESSAGE executing callback sts4.classpath.eXrNiUuK SUCCESS [done]
