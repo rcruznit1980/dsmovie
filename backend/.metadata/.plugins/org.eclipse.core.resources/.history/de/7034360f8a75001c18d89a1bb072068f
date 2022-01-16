@@ -1,0 +1,2 @@
+spring.profiles.active=qld
+spring.jpa.open-in-view=false
